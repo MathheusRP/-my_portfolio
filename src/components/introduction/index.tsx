@@ -34,7 +34,7 @@ export const Introduction = () => {
                         <p>Conheça aqui neste ambiente criado especialmente para você alguns projetos dos quais participei</p>
                     </div>
                     <div className="buttons">
-                        <a href="#projects" className="button">See Projects</a>
+                        <a href="#projects" className="button">Ver projetos</a>
                         <a href="https://github.com/MathheusRP" target="_blank"><AiFillGithub className='gitHub' /></a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export const Introduction = () => {
                     </li>
                     <li>
                         <DiNodejsSmall className='icon' />
-                        <span>NodejsSmall</span>
+                        <span>Nodejs</span>
                     </li>
                     <li>
                         <DiPostgresql className='icon' />
