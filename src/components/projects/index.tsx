@@ -3,6 +3,7 @@ import img from '../../assets/Group 4.svg'
 import MotorsShop from '../../assets/imgs/Motors-Shop.png'
 import BurgueKenzie from '../../assets/imgs/Burgue-Kenzie.png'
 import MyLinks from '../../assets/imgs/my-links.png'
+import socialNetwork from "../../assets/imgs/social-network.png"
 
 export const Projects = () => {
 
@@ -13,6 +14,27 @@ export const Projects = () => {
                 <img src={img} className="vetor" />
 
                 <ul className="listProjects">
+                    <li className="project">
+                        <section className="info">
+                            <h3>Mortors Shop</h3>
+                            <span>Contém:</span>
+                            <ul className="listLinguagens">
+                                <li>Typescript</li>
+                                <li>React.js</li>
+                                <li>CSS</li>
+                                <li>Front - End</li>
+                            </ul>
+                            <p>
+                                Esse projeto continua em desenvolvimento, tenho o intuito de criar uma mini rede social.
+                            </p>
+                            <div className="links">
+                                <a href="https://github.com/MathheusRP/my_social_network" target="_blank">Github Code</a>
+                                <a href="https://my-social-network-alpha.vercel.app/" target="_blank">Aplicação</a>
+                                <a href="https://www.figma.com/file/KRy8pfHLlmIRBUJY5bTwAk/Untitled?type=design&node-id=0-1&mode=design&t=TLfHhvr5kYyFVhCJ-0" target="_blank">Figma</a>
+                            </div>
+                        </section>
+                        <img src={socialNetwork} alt="Kenzie Kars" />
+                    </li>
                     <li className="project">
                         <section className="info">
                             <h3>Mortors Shop</h3>
