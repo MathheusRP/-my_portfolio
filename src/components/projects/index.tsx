@@ -16,7 +16,7 @@ export const Projects = () => {
                 <ul className="listProjects">
                     <li className="project">
                         <section className="info">
-                            <h3>Mortors Shop</h3>
+                            <h3>Social Network</h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
                                 <li>Typescript</li>
