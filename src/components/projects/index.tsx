@@ -1,8 +1,6 @@
 import { ProjectsStyled } from "./style";
 import img from '../../assets/Group 4.svg'
 import MotorsShop from '../../assets/imgs/Motors-Shop.png'
-import BurgueKenzie from '../../assets/imgs/Burgue-Kenzie.png'
-import MyLinks from '../../assets/imgs/my-links.png'
 import socialNetwork from "../../assets/imgs/social-network.png"
 
 export const Projects = () => {
