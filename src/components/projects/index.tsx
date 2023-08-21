@@ -62,27 +62,6 @@ export const Projects = () => {
                     </li>
                     <li className="project">
                         <section className="info">
-                            <h3>My Links (Em andamento)</h3>
-                            <span>Contém:</span>
-                            <ul className="listLinguagens">
-                                <li>Typescript</li>
-                                <li>React.js</li>
-                                <li>CSS</li>
-                                <li>Front - End</li>
-                            </ul>
-                            <p>
-                                Rede social com o foco em compartilhamento de links e anuncios
-                            </p>
-                            <div className="links">
-                                <a href="https://github.com/MathheusRP/my-links/tree/main" target="_blank">Github Code</a>
-                                <a href="https://my-links-lac.vercel.app/" target="_blank">Aplicação</a>
-                                <a href="https://www.figma.com/file/qvwPOX04iJMeyHYMw5X7fm/Untitled?type=design&node-id=0-1&t=Yh6y9Ka1QpUBZN7J-0" target="_blank">Figma</a>
-                            </div>
-                        </section>
-                        <img src={MyLinks} alt="Kenzie Kars" />
-                    </li>
-                    <li className="project">
-                        <section className="info">
                             <h3>Kenzie Kars</h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
