@@ -60,28 +60,6 @@ export const Projects = () => {
                         </section>
                         <img src={MotorsShop} alt="Kenzie Kars" />
                     </li>
-                    <li className="project">
-                        <section className="info">
-                            <h3>Kenzie Kars</h3>
-                            <span>Contém:</span>
-                            <ul className="listLinguagens">
-                                <li>Javascript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Front - End</li>
-                            </ul>
-                            <p>
-                                Trabalho realizado na Kenzie Academy com o
-                                objetivo de realizar um simples sistema
-                                de compra de comida
-                            </p>
-                            <div className="links">
-                                <a href="https://github.com/MathheusRP/Hamburgueria/tree/master" target="_blank">Github Code</a>
-                                <a href="https://hamburgueria-eosin.vercel.app/" target="_blank">Aplicação</a>
-                            </div>
-                        </section>
-                        <img src={BurgueKenzie} alt="Kenzie Kars" />
-                    </li>
                 </ul>
             </div>
         </ProjectsStyled>
