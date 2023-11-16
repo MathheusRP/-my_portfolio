@@ -1,6 +1,7 @@
 import { ProjectsStyled } from "./style";
 import img from '../../assets/Group 4.svg'
 import MotorsShop from '../../assets/imgs/Motors-Shop.png'
+import MyShopImage from '../../assets/imgs/myShopImage.png'
 import BurgueKenzie from '../../assets/imgs/Burgue-Kenzie.png'
 import MyLinks from '../../assets/imgs/my-links.png'
 import socialNetwork from "../../assets/imgs/social-network.png"
@@ -16,16 +17,15 @@ export const Projects = () => {
                 <ul className="listProjects">
                     <li className="project">
                         <section className="info">
-                            <h3>Mortors Shop</h3>
+                            <h3>Rede Social</h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
                                 <li>Typescript</li>
                                 <li>React.js</li>
                                 <li>CSS</li>
-                                <li>Front - End</li>
                             </ul>
                             <p>
-                                Esse projeto continua em desenvolvimento, tenho o intuito de criar uma mini rede social.
+                                Uma simples interface de rede social
                             </p>
                             <div className="links">
                                 <a href="https://github.com/MathheusRP/my_social_network" target="_blank">Github Code</a>
@@ -45,8 +45,6 @@ export const Projects = () => {
                                 <li>CSS</li>
                                 <li>Node.js</li>
                                 <li>PostgreSQL</li>
-                                <li>Back - End</li>
-                                <li>Front - End</li>
                             </ul>
                             <p>
                                 Trabalho realizado em equipe na Kenzie Academy
@@ -62,13 +60,12 @@ export const Projects = () => {
                     </li>
                     <li className="project">
                         <section className="info">
-                            <h3>My Links (Em andamento)</h3>
+                            <h3>Central de Links </h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
                                 <li>Typescript</li>
                                 <li>React.js</li>
                                 <li>CSS</li>
-                                <li>Front - End</li>
                             </ul>
                             <p>
                                 Rede social com o foco em compartilhamento de links e anuncios
@@ -83,13 +80,12 @@ export const Projects = () => {
                     </li>
                     <li className="project">
                         <section className="info">
-                            <h3>Kenzie Kars</h3>
+                            <h3>Burguer Kenzie</h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
-                                <li>Javascript</li>
+                                <li>React</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Front - End</li>
                             </ul>
                             <p>
                                 Trabalho realizado na Kenzie Academy com o
@@ -102,6 +98,26 @@ export const Projects = () => {
                             </div>
                         </section>
                         <img src={BurgueKenzie} alt="Kenzie Kars" />
+                    </li>
+                    <li className="project">
+                        <section className="info">
+                            <h3>My-Shop</h3>
+                            <span>Contém:</span>
+                            <ul className="listLinguagens">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Next</li>
+                                <li>Typescript</li>
+                            </ul>
+                            <p>
+                                Uma simples interface de loja de computadores e acessórios.
+                            </p>
+                            <div className="links">
+                                <a href="https://github.com/MathheusRP/my_shop" target="_blank">Github Code</a>
+                                <a href="https://my-shop-six-sepia.vercel.app/" target="_blank">Aplicação</a>
+                            </div>
+                        </section>
+                        <img src={MyShopImage} alt="Kenzie Kars" />
                     </li>
                 </ul>
             </div>
