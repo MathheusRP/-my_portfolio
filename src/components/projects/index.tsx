@@ -5,6 +5,7 @@ import MyShopImage from '../../assets/imgs/myShopImage.png'
 import BurgueKenzie from '../../assets/imgs/Burgue-Kenzie.png'
 import MyLinks from '../../assets/imgs/my-links.png'
 import socialNetwork from "../../assets/imgs/social-network.png"
+import Instalink from "../../assets/imgs/Instalink.png"
 
 export const Projects = () => {
 
@@ -60,7 +61,7 @@ export const Projects = () => {
                     </li>
                     <li className="project">
                         <section className="info">
-                            <h3>Central de Links </h3>
+                            <h3>InstaLink </h3>
                             <span>Contém:</span>
                             <ul className="listLinguagens">
                                 <li>Typescript</li>
@@ -68,15 +69,15 @@ export const Projects = () => {
                                 <li>CSS</li>
                             </ul>
                             <p>
-                                Rede social com o foco em compartilhamento de links e anuncios
+                                Rede social com o fogo em publicações de projetos e divagações de links
                             </p>
                             <div className="links">
-                                <a href="https://github.com/MathheusRP/my-links/tree/main" target="_blank">Github Code</a>
-                                <a href="https://my-links-lac.vercel.app/" target="_blank">Aplicação</a>
-                                <a href="https://www.figma.com/file/qvwPOX04iJMeyHYMw5X7fm/Untitled?type=design&node-id=0-1&t=Yh6y9Ka1QpUBZN7J-0" target="_blank">Figma</a>
+                                <a href="https://github.com/MathheusRP/InstaLink" target="_blank">Github Code</a>
+                                <a href="https://insta-link.vercel.app/" target="_blank">Aplicação</a>
+                                <a href="https://www.figma.com/file/ijL1IuMNUF0OjXJW1vtVTj/Untitled?type=design&node-id=0-1&mode=design&t=Tr4lG3HYYpAM5QYL-0" target="_blank">Figma</a>
                             </div>
                         </section>
-                        <img src={MyLinks} alt="Kenzie Kars" />
+                        <img src={Instalink} alt="Kenzie Kars" />
                     </li>
                     <li className="project">
                         <section className="info">
