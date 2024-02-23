@@ -97,7 +97,7 @@ export const IntroductionStyle = styled.section`
             font-size: 28px;
             letter-spacing: 2px;
             line-height: 40px;
-            text-align: justify;
+            /* text-align: justify; */
 
             b {
                 color: var(--red);
