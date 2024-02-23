@@ -3,7 +3,6 @@ import img from '../../assets/Group 4.svg'
 import MotorsShop from '../../assets/imgs/Motors-Shop.png'
 import MyShopImage from '../../assets/imgs/myShopImage.png'
 import BurgueKenzie from '../../assets/imgs/Burgue-Kenzie.png'
-import MyLinks from '../../assets/imgs/my-links.png'
 import socialNetwork from "../../assets/imgs/social-network.png"
 import Instalink from "../../assets/imgs/Instalink.png"
 
